@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="14.SetDialogOpacity.jnlp">
+  <information>
+    <title>14.SetDialogOpacity</title>
+    <vendor>joaquin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="14.SetDialogOpacity.jar" size="3661" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="14.SetDialogOpacity" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="pkg14.setdialogopacity.SetDialogOpacity"  name="14.SetDialogOpacity" />
+  <update check="always"/>
+</jnlp>

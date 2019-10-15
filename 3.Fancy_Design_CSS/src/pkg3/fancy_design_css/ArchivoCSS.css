@@ -1,0 +1,38 @@
+/* Aniade imagen de fondo */
+.root {
+     -fx-background-image: url("background.jpg");
+}
+
+/* Da estilo a las etiquetas */
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+/* Modifica formato al texto welcome */
+#welcome-text {
+   -fx-font-size: 32px;  /* Incrementa 32 puntos el texto bienvenida */
+   -fx-font-family: "Arial Black";  /* Modifica fuente de letras a Arial negra */
+   -fx-fill: #818181;   /* Color de relleno del texto gris oscuro */
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );  /* Efecto sobra interior */
+}
+#actiontarget {
+  -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+/*  cambie de estilo cuando el usuario pasa el ratón sobre él. ( Sign in )*/
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,10) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);  /* Nuevo fondo azul-gris y texto en negrita blanco. */
+}

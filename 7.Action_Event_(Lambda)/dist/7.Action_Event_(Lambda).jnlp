@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="7.Action_Event_(Lambda).jnlp">
+  <information>
+    <title>7.Action_Event_(Lambda)</title>
+    <vendor>joaquin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="7.Action_Event_(Lambda).jar" size="2801" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="7.Action_Event_(Lambda)" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="pkg7.action_event_.lambda.Action_Event_Lambda"  name="7.Action_Event_(Lambda)" />
+  <update check="always"/>
+</jnlp>

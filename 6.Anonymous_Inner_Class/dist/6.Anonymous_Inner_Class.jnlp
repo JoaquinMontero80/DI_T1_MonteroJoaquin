@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="6.Anonymous_Inner_Class.jnlp">
+  <information>
+    <title>6.Anonymous_Inner_Class</title>
+    <vendor>joaquin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="6.Anonymous_Inner_Class.jar" size="5089" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="6.Anonymous_Inner_Class" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="pkg6.anonymous_inner_class.Anonymous_Inner_Class"  name="6.Anonymous_Inner_Class" />
+  <update check="always"/>
+</jnlp>

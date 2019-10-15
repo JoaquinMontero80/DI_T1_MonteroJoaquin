@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="13.Using_GridPane.jnlp">
+  <information>
+    <title>13.Using_GridPane</title>
+    <vendor>joaquin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="13.Using_GridPane.jar" size="2125" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="13.Using_GridPane" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="pkg13.using_gridpane.Using_GridPane"  name="13.Using_GridPane" />
+  <update check="always"/>
+</jnlp>
